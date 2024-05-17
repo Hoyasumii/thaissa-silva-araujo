@@ -1,6 +1,6 @@
 import { ThemeConfig, theme } from "antd";
 
-const palette: Array<string> = ["#141414", "#2C3333", "#395B64", "#A5C9CA", "#E7F6F2"];
+const palette: Array<string> = ["#0F0F0F", "#141414", "#1F1F1F", "#242424", "#2F2F2F"];
 const primaryColor = "#6600FF";
 const errorColor = "#E31937";
 
@@ -14,9 +14,9 @@ export default {
   },
   components: {
     Layout: {
-      headerBg: palette[1],
-      bodyBg: palette[1],
-      footerBg: palette[1],
+      headerBg: palette[2],
+      bodyBg: palette[2],
+      footerBg: palette[2],
       triggerBg: primaryColor,
     },
     Menu: {

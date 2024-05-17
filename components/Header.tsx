@@ -13,7 +13,7 @@ export const Header = ({ children }: HeaderProps) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 0)
+      setScrolled(window.scrollY > 200)
     }
 
     window.addEventListener('scroll', handleScroll);

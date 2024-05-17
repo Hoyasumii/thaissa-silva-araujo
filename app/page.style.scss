@@ -1,3 +1,44 @@
 .content {
   min-height: 100vh !important;
+
+  h1.main-title {
+    font-size: 6rem;
+  }
+
+  h1.section-title {
+    font-size: 4rem;
+  }
+
+  span.main-text {
+    font-size: 2rem;
+  }
+
+  span.section-text {
+    font-size: 1.5rem;
+  }
+
+  .section-card {
+    padding: 1rem !important;
+    width: 30vw;
+
+    & > * {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+  }
+
+  &__main {
+    & > * {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+
+      &:nth-child(n+2) > *:nth-child(1) {
+        display: flex;
+        flex-flow: column;
+        gap: 1rem;
+      }
+    }
+  }
 }

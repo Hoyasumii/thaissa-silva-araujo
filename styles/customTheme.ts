@@ -15,8 +15,7 @@ export default {
   components: {
     Layout: {
       headerBg: palette[1],
-      siderBg: palette[1],
-      bodyBg: palette[2],
+      bodyBg: palette[1],
       footerBg: palette[1],
       triggerBg: primaryColor,
     },

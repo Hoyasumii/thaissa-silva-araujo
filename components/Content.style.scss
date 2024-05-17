@@ -1,0 +1,10 @@
+.content {
+  &__main {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    padding: 1rem 2.5rem !important;
+    text-align: justify;
+  }
+}

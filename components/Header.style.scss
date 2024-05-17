@@ -2,6 +2,11 @@
   &__header {
     position: sticky !important;
     top: 0;
-    box-shadow: 1px 1px 5px #0F0F0F;
+    box-shadow: 1px 1px 5px transparent;
+    transition: all ease 300ms;
+
+    &.active {
+      box-shadow: 1px 1px 5px #1F1F1F;
+    }
   }
 }

@@ -28,3 +28,11 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: nth($palette, 4);
 }
+
+.ant-form-item-required {
+  font-size: 1rem !important;
+}
+
+.ant-input {
+  padding: .5rem !important;
+}

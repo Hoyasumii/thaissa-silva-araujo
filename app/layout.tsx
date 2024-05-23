@@ -3,8 +3,8 @@ import { Root } from "@/components";
 import "@/styles/globals.scss";
 
 export const metadata: Metadata = {
-  title: "Alan Reis Anjos",
-};
+  title: "Thaissa da Silva Araújo",
+}
 
 export default function RootLayout({
   children,
